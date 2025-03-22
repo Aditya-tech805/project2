@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #DAEBFD;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+  }
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+.Active-btn{
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+.two-btn{
+    display: inline-block;
+}
+
+/* css for the block elements */
+
+.main {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.main1-card {
+    width: 70%;
+    height: 150vh;
+    background-color: blueviolet;
+}
+.main2-wallet {
+    width: 30%;
+    height: 150vh;
+    background-color: aqua;
+}
+
+/* main1 css */
+.stocks {
+    width: 95%;
+    height: 55vh;
+    background-color: cornflowerblue;
+    margin: 10px 25px 20px;
+    display: flex;
+}
+
+.hh-sqaure {
+    width:25% ;
+    height: 55vh;
+    background-color: chocolate;
+}
+
+.rewards {
+    width: 95%;
+    height: 25vh;
+    background-color:  white;
+    margin: 10px 25px 20px;
+
+}
+
+.staking-act {
+    width: 95%;
+    height: 55vh;
+    background-color: white;
+    margin: 10px 25px 20px;
+
+}
+
+
+.wallet-if {
+    width: 80% ;
+    height: 45vh;
+    background-color: #0B99FF;
+    margin: 10px 20px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.div-sqaure{
+    width: 80%;
+    height: 55vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    justify-content: center;
+}
+.Staking-box {
+   width: 40%;
+   height: 25vh;
+   background-color: white;
+}
